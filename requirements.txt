@@ -1,13 +1,13 @@
 streamlit==1.45.1
 
+torch
 transformers==4.51.3
-torch==2.7.0
 
 spacy==3.8.5
 pymupdf==1.26.0
 
 sentencepiece
-sacremoses
 protobuf
+sacremoses
 
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz
