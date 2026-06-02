@@ -1,9 +1,9 @@
 streamlit
 transformers
 torch
-sentencepiece
-PyMuPDF
 spacy
-nltk
-pandas
-numpy
+pymupdf
+sentencepiece
+sacremoses
+protobuf
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz
