@@ -1,6 +1,7 @@
 streamlit
-transformers
+transformers==4.49.0
 torch
+accelerate
 spacy
 pymupdf
 sentencepiece
