@@ -4,7 +4,7 @@ print("Loading summarization pipeline...")
 
 summarizer = pipeline(
     "summarization",
-    model="facebook/bart-large-cnn"
+    model="sshleifer/distilbart-cnn-12-6"
 )
 
 print("Pipeline loaded successfully!")
