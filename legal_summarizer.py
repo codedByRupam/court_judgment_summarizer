@@ -1,18 +1,13 @@
-from transformers import pipeline
-
-summarizer = pipeline(
-    "summarization",
-    model="sshleifer/distilbart-cnn-12-6"
-)
+from model_loader import summarizer_model
 
 def summarize_section(text):
 
     if len(text.strip()) < 100:
         return "Section not found."
 
-    text = text[:2500]
+    text = text[:2000]
 
-    result = summarizer(
+    result = summarizer_model(
         text,
         max_length=100,
         min_length=30,
